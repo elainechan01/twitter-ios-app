@@ -28,7 +28,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="onLoginButton:" destination="Vvo-ae-Ogx" eventType="touchUpInside" id="1TC-OG-jwi"/>
+                                    <action selector="onLoginButton:" destination="Vvo-ae-Ogx" eventType="touchUpInside" id="DjN-iF-alH"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -40,7 +40,7 @@
                         <viewLayoutGuide key="safeArea" id="wzW-1L-ApK"/>
                     </view>
                     <connections>
-                        <segue destination="Eu8-Z7-RVR" kind="presentation" id="nkO-f0-3Aj"/>
+                        <segue destination="Eu8-Z7-RVR" kind="presentation" identifier="loginToHome" id="nkO-f0-3Aj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hMv-Pq-FUQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -92,6 +92,10 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="cHL-HL-LsD" kind="relationship" relationship="rootViewController" id="ZSL-zc-ImP"/>
