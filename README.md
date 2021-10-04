@@ -23,5 +23,6 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='./myGif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
+<img src='./myGifPart1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./myGifPart2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./myGifPart3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
