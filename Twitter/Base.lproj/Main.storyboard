@@ -150,13 +150,13 @@
         <!--Tweet View Controller-->
         <scene sceneID="Jf7-Gd-qt3">
             <objects>
-                <viewController id="gtP-Xe-JyH" customClass="TweetViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="gtP-Xe-JyH" customClass="TweetViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JeX-C9-Ktu">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DS4-R6-bQ8">
-                                <rect key="frame" x="0.0" y="56" width="375" height="128"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="128"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="ezZ-qL-WXj"/>
@@ -221,10 +221,10 @@
         <!--Tweet Navigation Controller-->
         <scene sceneID="22J-KY-ZNK">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ldH-bc-P4M" userLabel="Tweet Navigation Controller" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="ldH-bc-P4M" userLabel="Tweet Navigation Controller" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Srz-QB-6JL">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
